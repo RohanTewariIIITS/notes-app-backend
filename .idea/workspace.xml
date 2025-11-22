@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4621397c-6dfc-4163-92ad-85bc1fde25d4" name="Changes" comment="Initial Push to">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,24 +53,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build NotesApp.executor": "Run",
-    "Gradle.NotesApp [:com.example.NotesApp.NotesAppApplicationKt.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/RT(Academic)/Downloads/NotesApp/NotesApp",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build NotesApp.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NotesApp [:com.example.NotesApp.NotesAppApplicationKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RT(Academic)/Downloads/NotesApp/NotesApp&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="NotesAppRunConfig" type="Application" factoryName="Application">
       <envs>
         <env name="MONGODB_PASSWORD" value="RT%40mongodb2024" />
+        <env name="MONGODB_URI" value="mongodb+srv://rohantewari2023:${MONGODB_PASSWORD}@notescluster.ch4jv3z.mongodb.net/?appName=NotesCluster" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="com.example.NotesApp.NotesAppApplicationKt" />
       <module name="NotesApp.main" />
@@ -118,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763814402713</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial Push to">
+      <option name="closed" value="true" />
+      <created>1763815526802</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763815526803</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
