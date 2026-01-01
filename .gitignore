@@ -1,0 +1,4 @@
+/src/main/resources/firebase-credentials.json
+target/
+build/
+out/
